@@ -1,11 +1,11 @@
-# 클래스(클래스)와 구조체(struct)
+# 클래스(class)와 구조체(struct)
 
-## 클래스 (클래스)
+## 클래스 (class)
 클래스는 프로퍼티와 메서드로 구성되어있다.<br>
 클래스는 객체지향적 언어에서 사용되는 것이며, 붕어빵을 만들 때의 "틀"이라고 생각하면 이해하기 쉽다.<br>
 즉 여러개의 객체를 만들기 위해서 그것을 같은 형태로 찍어낼 수 있도록 한 것이다.
 ```
-클래스 Car{
+class Car{
     let model : String
     let price : Int
 
@@ -40,7 +40,7 @@ struct Car{
     }
 }
 
-// 클래스의 사용
+// 구조체의 사용
 var myCar = Car(model : "Kia")
 print(myCar.drive())
 
