@@ -20,36 +20,35 @@
 * `if let`, `if var`, `guard let`, `guard var`를 통해서 바인딩 가능하다.<br>
 ** 이것은 강제 언랩핑해주는 것보다 안전하다.
 
-'''
+```
 let roomNumber : Int? = nil
 if let room = roomNumber {
     print(room)
 }
 // 출력값 없음
-'''
-
-'''
+```
+```
 let roomNumber : Int? = 3
 if let room = roomNumber {
     print(room)
 }
 // 출력값 3
-'''
+```
 
 ## 옵셔널 강제 언래핑
 * !를 사용하여 강제로 옵셔널 추출
 * 강제 언래핑을 잘못 사용하면 프로그램이 비정상적으로 종료되기 때문에 주의해야함
-'''
+```
 let address : String? = nil
 print(address!)
 //에러 메세지 출력
-'''
+```
 
 ## 옵셔널 체이닝
 옵셔널을 체인처럼 연쇄적으로 사용하는 것을 말한다.<br>
 `.`을 통해서 내부 프로퍼티나 매서드에 연속적으로 접근할 때 `?`를 사용하여 접근 가능하다.
 
-'''
+```
 struct Car{
     var name: String
     var owner: Person
@@ -67,5 +66,4 @@ print(K5.owner.address)
 
 print(K5?.owner.address)
 // 이렇게 써야함!
-
-'''
+```
