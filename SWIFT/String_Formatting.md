@@ -1,4 +1,4 @@
-# Swift String Format
+# String Format
 스위프트에서는 문자열을 포맷팅하는 방법이 있다.
 ```
 String(format:String, argument)
