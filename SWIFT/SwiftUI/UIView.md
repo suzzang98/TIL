@@ -9,7 +9,7 @@
 직사각형 영역 안에 컨텐츠를 그릴 수 있고, `view`의 속성들을 통해서 애니메이션을 만들 수 있다.
 
 * Layout, subview management<br>
-view들은 0개 이상의 `subview`를 가질 수 있으며, `size`나 `position`을 조정할 수 있다.
+`view`들은 0개 이상의 `subview`를 가질 수 있으며, `size`나 `position`을 조정할 수 있다.
 Auto Layout을 통해서 View의 상속 계층에 따라서 반응하도록 만들 수 있다.
 
 * Event handling<br>
